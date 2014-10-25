@@ -279,6 +279,7 @@ $(function(){
 $(document).ready(function() {
   $("#block-reports").css('width',940);
   $("#block-reports > div > a.more").hide();
+  $("#block-reports > div > h5").hide();
   $('#block-reports > div > table.table-list').DataTable({
         "paging":   true,
         "ordering": true,
