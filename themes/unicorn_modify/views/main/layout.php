@@ -271,3 +271,8 @@ $(function(){
 
 </div>
 <!-- content -->
+<script>
+$(document).ready(function() {
+  $("#block-reports").css('width',940);
+});
+</script>
