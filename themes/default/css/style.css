@@ -939,14 +939,15 @@ table.table-list thead th{
     text-align: left;
     text-transform: uppercase;
     font-size: 11px;
+    border-bottom: 2px solid #666;
 }
 
 table.table-list thead th.title{
-    width: 60%;
+    width: 40%;
 }
 
 table.table-list thead th.location{
-    width: 20%;
+    width: 50%;
 }
 
 table.table-list thead th.source{
@@ -954,13 +955,13 @@ table.table-list thead th.source{
 }
 
 table.table-list thead th.date{
-    width: 15%;
+    width: 10%;
 }
 
 table.table-list tbody tr td{
-    padding: 5px;
+    padding: 10px;
     font-size: 11px;
-    border-bottom: #EEEEEE 1px solid;
+    border-bottom: #666 1px solid;
     vertical-align: top;
 }
 
