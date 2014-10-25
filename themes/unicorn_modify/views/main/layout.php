@@ -184,7 +184,7 @@ $(function(){
 			if (Kohana::config('settings.allow_reports'))
 			{
 				?>
-				<a class="btn toggle" id="how-to-report-menu-toggle" class="" href="#how-to-report-box"><?php echo Kohana::lang('ui_main.how_to_report'); ?> <span class="btn-icon ic-question">&raquo;</span></a>
+				<a class="btn toggle" id="how-to-report-menu-toggle" class="" href="#how-to-report-box" style="display:none;"><?php echo Kohana::lang('ui_main.how_to_report'); ?> <span class="btn-icon ic-question">&raquo;</span></a>
 				<div id="how-to-report-box" class="map-menu-box">
 					
 					<div class="how-to-report-methods">

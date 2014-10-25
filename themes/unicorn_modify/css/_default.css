@@ -121,7 +121,7 @@ div#logo span {
 }
 
 /* submit report button */
-div.submit-incident { margin:0; top:20%; }
+div.submit-incident { margin:0; top:122px; right:9px; }
 div.submit-incident a, .btn_submit {
   text-shadow: 1px 1px 0 #424242;
   -moz-border-radius: 3px;
