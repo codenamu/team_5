@@ -5,13 +5,13 @@
 // I18n generated at: 2013-10-13 06:23+0000
 // PO revision date:  2013-10-12 07:23+0000
 $lang = array(
-	'reports_view' => '리포트 보기',
-	'reports_edit' => '리포트 생성/수정/삭제 ',
-	'reports_approve' => '리포트 승인',
-	'reports_verify' => '리포트 확인',
-	'reports_comments' => '리포트 댓글 관리',
-	'reports_download' => '다운로드 리포트',
-	'reports_upload' => '업로드 리포트',
+	'reports_view' => '데이터 보기',
+	'reports_edit' => '데이터 생성/수정/삭제 ',
+	'reports_approve' => '데이터 승인',
+	'reports_verify' => '데이터 확인',
+	'reports_comments' => '데이터 댓글 관리',
+	'reports_download' => '다운로드 데이터',
+	'reports_upload' => '업로드 데이터',
 	'messages' => '메시지 관리',
 	'messages_reporters' => '메시지 리포터 관리',
 	'stats' => '통계 보기',
@@ -23,5 +23,5 @@ $lang = array(
 	'checkin_admin' => '체크인 관리',
 	'admin_ui' => '관리자 UI 접속',
 	'member_ui' => '멤버 UI 접속',
-	'delete_all_reports' => '모든 리포트 삭제',
+	'delete_all_reports' => '모든 데이터 삭제',
 );

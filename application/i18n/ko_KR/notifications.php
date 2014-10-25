@@ -16,8 +16,8 @@ $lang = array(
 		'subject' => '새 이메일',
 	) ,
 	'admin_new_report' => array(
-		'message' => '새로운 리포트가 등록되었습니다.',
-		'subject' => '새 리포트',
+		'message' => '새로운 데이터가 등록되었습니다.',
+		'subject' => '새 데이터',
 	) ,
 	'admin_new_sms' => array(
 		'message' => '새로운 문자가 도착하였습니다.',
