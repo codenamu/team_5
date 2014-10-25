@@ -271,8 +271,19 @@ $(function(){
 
 </div>
 <!-- content -->
+
+<script type="text/javascript" src="//cdn.datatables.net/1.10.3/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.3/css/jquery.dataTables.css">
+
 <script>
 $(document).ready(function() {
   $("#block-reports").css('width',940);
+  $("#block-reports > div > a.more").hide();
+  $('#block-reports > div > table.table-list').DataTable({
+        "paging":   true,
+        "ordering": true,
+        "info":     false
+  });
+  $("#DataTables_Table_0_length").hide();
 });
 </script>
